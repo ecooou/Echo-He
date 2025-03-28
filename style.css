@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html body {
+    background-color: #44899f;
+    color: white;
+    padding: 0.75rem;
+    font-family: 'Inter', sans-serif;
+}
+
+/* FONTS */
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.heading-img{
+    text-align: center;
+    width: 150px;
+}
+
+.subheading {
+    display: block;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing:0.1rem;
+    color: #A1EEBD;
+}
+
+p {
+    font-size:20px; 
+}
+
+li {
+    font-size: 20px;
+}
+
+.accent {
+    color: #A1EEBD;
+    font-weight: bold;
+}
+
+.text-align {
+    text-align: center;
+}
+/* BODY STYLE */
+.container {
+    margin: 10%;
+    margin-top: 2rem;
+    padding-right: 5rem;
+    margin-bottom: 0;
+}
+
+/* NAVBAR STYLE */
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color:aquamarine;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.navbar-collapse.show .nav-link {
+    padding-left: 1rem;
+}
+
+/* ELEMENTS */
+.startButton {
+    font-size: 20px;
+    background-color: #44899f;
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.startButton:hover {
+    background-color: #89C6FF;
+    border: none;
+    font-weight: bold;
+}
+
+hr {
+    margin: 1.5rem 0;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pWithGraph{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.nextButton {  
+    position: absolute;
+    background-color: #0fa0e3;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 0.25rem 0.5rem;
+}
+
+.nextButton:hover {
+    background-color: #89C6FF;
+    border: 2px solid #c1e0fd;
+    font-weight: bold;
+}
+
+.center-button {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 5%;
+}
+.row {
+    display: flex;
+    gap: 1rem; /* Optional spacing between columns */
+    padding-bottom: 50px;
+}
+
+  .column {
+    flex: 1; /* Each column takes up 50% of the row */
+  }
